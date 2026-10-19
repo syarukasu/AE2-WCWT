@@ -60,11 +60,9 @@ minecraft {
         }
         client {
             workingDirectory project.file('run/client')
-            property 'forge.enabledGameTestNamespaces', mod_id
         }
         server {
             workingDirectory project.file('run/server')
-            property 'forge.enabledGameTestNamespaces', mod_id
             // args '--nogui'
         }
     }
